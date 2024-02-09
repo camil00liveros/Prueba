@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saludo con efectos CSS</title>
+<style>
+  /* Estilos para el contenedor del saludo */
+  .saludo-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  /* Estilos para el texto del saludo */
+  .saludo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    animation: scaleEffect 2s ease-in-out infinite alternate;
+  }
+
+  /* Animación de escala */
+  @keyframes scaleEffect {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="saludo-container">
+    <p class="saludo-text">Hola Curso de Git</p>
+  </div>
+</body>
+</html>
 
