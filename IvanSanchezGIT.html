@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida - Historia de Git</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0366d6;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .button {
+            display: inline-block;
+            background: #0366d6;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a la Historia de Git</h1>
+        <p>Git es un sistema de control de versiones distribuido, creado por Linus Torvalds en 2005. Su desarrollo comenzó como una herramienta para facilitar la gestión de versiones del kernel de Linux, pero rápidamente se expandió a otros proyectos. Git se destaca por su velocidad, integridad de datos, y soporte para flujos de trabajo distribuidos y no lineales.</p>
+        <p>Con Git, los desarrolladores pueden colaborar en proyectos de cualquier tamaño con eficiencia y seguridad, gestionando múltiples ramas de desarrollo de manera concurrente.</p>
+        <button class="button" id="moreInfo">Más Información</button>
+    </div>
+    <script>
+        document.getElementById('moreInfo').addEventListener('click', function() {
+            alert('Para más información, visita la documentación oficial de Git en https://git-scm.com/');
+        });
+    </script>
+</body>
+</html>
